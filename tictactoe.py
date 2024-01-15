@@ -12,6 +12,10 @@ def display_board():
 def handle_turn():
     # starts by getting postition
     position = input("choose a position from 1 - 9 ")
+    position = int(position) - 1 # this gets the exact postion index
+    
+    board[position] = "X"
+    display_board()
 
 def play_game():
     # display initial board
