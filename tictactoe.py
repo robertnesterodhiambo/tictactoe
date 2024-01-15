@@ -7,7 +7,20 @@ def display_board():
     print(" | " + board[3] + " | ", board[4] + " | ", board[5] + " | ")
     print(" | " + board[6] + " | ", board[7] + " | ", board[8] + " | ")
 
-display_board()
+#handle turns
+
+def handle_turn():
+    # starts by getting postition
+    position = input("choose a position from 1 - 9 ")
+
+def play_game():
+    # display initial board
+    display_board()
+    handle_turn()
+
+
+play_game()
+
 #display board
 # play game
 # handle turns 
