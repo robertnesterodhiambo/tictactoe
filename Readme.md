@@ -60,4 +60,4 @@ Player 2 (O) - Enter your move (row and column): 2 2
 Player 1 wins!
 Do you want to play again? (yes/no): no
 
-Thanks for playing!
+Thanks for playing!s
